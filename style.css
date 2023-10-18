@@ -1,0 +1,209 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 70px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background: whitesmoke;
+  padding: 10px;
+  margin: 5px;
+}
+
+.search {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.search-bar input[type='search'] {
+  width: 75vw;
+  outline-style: none;
+  border: none;
+  padding: 8px;
+  font-size: 16px;
+}
+
+#search-btn {
+  background-color: #fb3e44;
+  height: 40px;
+  padding: 0 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Section One Styles */
+#one {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#one h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#one p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+#one a {
+  background-color: #fb3e44;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+#one .plans:hover {
+  background-color: #f76065;
+}
+
+#one .join {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  border: 2px solid #fb3e44;
+}
+
+/* Section Two Styles */
+#two {
+  text-align: center;
+  padding: 100px 0;
+  background: rgba(255, 204, 53, 0.4);
+}
+
+#two h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+#two img {
+  width: 200px;
+}
+
+/* Section Three Styles */
+#three {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+.card-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#card {
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#card img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.card-head {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.footer-btn {
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 50px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Center the button in the footer */
+.footer-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 5px 5px #343434cb;
+}

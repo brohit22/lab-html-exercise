@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>NPM Clone</title>
   </head>
   <body>
@@ -28,14 +29,13 @@
         </nav>
       </div>
       <div>
-        <div id="logo">
-          <img src="./images/npm-logo.png" alt="npm-logo" />
-        </div>
+        <img class="logo" src="./images/npm-logo.png" alt="npm-logo" />
         <div class="search-bar">
-          <img src="./images/magnifying-glass.png" />
+          <img class="search" src="./images/magnifying-glass.png" />
           <input type="search" name="search" placeholder="Search packages" />
-          <button>Search</button>
         </div>
+        <button id="search-btn">Search</button>
+
         <div>
           <a href="#join">Join</a>
           <a href="#signIn">Sign In</a>
@@ -49,8 +49,8 @@
         Essential JavaScript development tools that help you go to market faster
         and build powerful applications using modern open source code.
       </p>
-      <a href="#">See plans</a>
-      <a href="#">Join for free</a>
+      <a href="#" class="plans">See plans</a>
+      <a href="#" class="join">Join for free</a>
     </section>
 
     <section id="two">
@@ -65,6 +65,7 @@
     </section>
 
     <section id="three">
+      <div class="card-collection"></div>
       <div id="card">
         <img src="./images/zero-configuration.svg" alt="zero-configuration" />
         <p class="card-head">Zero Configuration</p>
@@ -74,32 +75,37 @@
         </p>
       </div>
 
-      <div id="card">
-        <img src="./images/team-management.svg" alt="team-management" />
-        <p class="card-head">Team management</p>
-        <p class="description">
-          Control who has access to what modules within your team namespace
-          using straightforward team management capabilities.
-        </p>
-      </div>
-      <div id="card">
-        <img src="./images/familiar-features.svg" alt="familiar-features />
-        <p class="card-head">Familiar features</p>
-        <p class="description">
-          npm Orgs has 100% parity with all the public npm registry features
-          your developers already use.
-        </p>
-      </div>
-      <div id="card">
-        <img src="./images/npm-audit.svg" alt="npm-audit" />
-        <p class="card-head">npm audit</p>
-        <p class="description">
-          Enjoy the security auditing features built into the npm client, a
-          zero-friction way to make open source software safer.
-        </p>
+      
+        <div id="card">
+          <img src="./images/team-management.svg" alt="team-management" />
+          <p class="card-head">Team management</p>
+          <p class="description">
+            Control who has access to what modules within your team namespace
+            using straightforward team management capabilities.
+          </p>
+        </div>
+        <div id="card">
+          <img src="./images/familiar-features.svg" alt="familiar-features />
+          <p class="card-head">Familiar features</p>
+          <p class="description">
+            npm Orgs has 100% parity with all the public npm registry features
+            your developers already use.
+          </p>
+        </div>
+        <div id="card">
+          <img src="./images/npm-audit.svg" alt="npm-audit" />
+          <p class="card-head">npm audit</p>
+          <p class="description">
+            Enjoy the security auditing features built into the npm client, a
+            zero-friction way to make open source software safer.
+          </p>
+        </div>
       </div>
 
-      <a href="#">Create an Org </a>
+      
     </section>
+    <footer>
+      <button class="footer-btn">Create an Org</button>
+    </footer>
   </body>
 </html>
